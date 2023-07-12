@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="search-link">Google Search</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form
+        action="https://www.google.com/search"
+        method="GET"
+        class="search-form"
+      >
+        <input type="text" name="tbm" value="isch" hidden />
+        <input type="text" name="q" class="search-input" />
+        <input
+          type="submit"
+          value="Google Image Search"
+          class="search-button"
+        />
+      </form>
+    </main>
+  </body>
+</html>

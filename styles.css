@@ -1,0 +1,82 @@
+/* Center the search form */
+.search-form {
+  text-align: center;
+}
+
+/* Styles for advanced-search-form class */
+
+.advanced-search-form {
+  max-width: 600px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.advanced-search-form label {
+  display: block; /* Display labels as block elements */
+  font-weight: bold; /* Set font weight to bold */
+  margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+.advanced-search-form input[type="text"] {
+  width: 100%; /* Set the width of text input fields to 100% */
+  padding: 5px; /* Add padding for spacing within the input fields */
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 4px; /* Add border radius for a rounded appearance */
+  margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+.advanced-search-form input[type="submit"] {
+  background-color: #1a0dab; /* Set the background color to Google blue */
+  color: #fff; /* Set the text color to white */
+  padding: 8px 16px; /* Add padding for spacing within the button */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Add border radius for a rounded appearance */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Style the search input */
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+/* Styles for search-link class */
+
+.search-link {
+  color: #1a0dab; /* Set the text color to Google blue */
+  text-decoration: none; /* Remove underline from the link text */
+}
+
+.search-link:hover {
+  text-decoration: underline; /* Add underline to the link text on hover */
+}
+
+/* Center align the search button */
+.search-button,
+.lucky-button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the header navigation */
+header {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
