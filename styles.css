@@ -9,12 +9,13 @@
   max-width: 600px; /* Set a maximum width for the form */
   margin: 0 auto; /* Center the form horizontally */
   padding: 20px; /* Add padding for spacing */
+  display: grid; /* Use CSS Grid layout */
+  grid-template-columns: auto 1fr; /* Set two columns, one for labels and one for inputs */
+  gap: 10px; /* Add gap between grid cells for spacing */
 }
 
 .advanced-search-form label {
-  display: block; /* Display labels as block elements */
   font-weight: bold; /* Set font weight to bold */
-  margin-bottom: 10px; /* Add margin at the bottom for spacing */
 }
 
 .advanced-search-form input[type="text"] {
@@ -22,7 +23,6 @@
   padding: 5px; /* Add padding for spacing within the input fields */
   border: 1px solid #ccc; /* Add a border to the input fields */
   border-radius: 4px; /* Add border radius for a rounded appearance */
-  margin-bottom: 10px; /* Add margin at the bottom for spacing */
 }
 
 .advanced-search-form input[type="submit"] {
